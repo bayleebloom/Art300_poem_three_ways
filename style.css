@@ -506,7 +506,7 @@ h1{
         color: white;
         padding: 0;
         margin: 0;
-        width: 1000vw;
+        width: 1200vw;
     }
     .title{
         font-size: 15em;
@@ -522,13 +522,13 @@ h1{
     }
     .color_box{
         margin: 0px auto 0px auto;
-        width: 10%;
+        width: 9%;
         height: 1000px;
-        background-color: white;
+        background-color: rgb(226, 192, 217);
         float: left;
     }
     .box_1{
-        width: 70%;
+        width: 90%;
         height: 90px;
         margin: 40px auto auto auto;
         background-color: rgb(95, 176, 224);
@@ -587,136 +587,224 @@ h1{
         transform: rotate(90deg);
         float: left;
     }
+    .box_7{
+        width: 80%;
+        height: 50px;
+        margin: -100px auto auto 295px;
+        background-color: rgb(188, 221, 239);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .box_8{
+        width: 60%;
+        height: 30px;
+        margin: 20px auto auto 345px;
+        background-color: rgb(205, 148, 190);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .box_9{
+        width: 100%;
+        height: 15px;
+        margin: -300px auto auto 375px;
+        background-color: rgb(95, 176, 224);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .box_10{
+        width: 40%;
+        height: 50px;
+        margin: 100px auto auto 390px;
+        background-color: rgb(236, 191, 157);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
     .stanza_1{
         font-family: ff-cocon-pro, sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: right;
-        font-size: 3em;
+        font-size: 5em;
         letter-spacing: 4px;
         word-spacing: 5px;
-        margin: 150px 20px auto auto;
-        line-height: .7em;
+        margin: 100px 50px auto 0px;
+        line-height: .6em;
         float: left;
     }
     .color_box_1{
-        width: 100%;
-        height: 90px;
-        background-color: rgb(188, 221, 239);
-        position: relative;
-        z-index: 100;
+        margin: 0px 0px 0px auto;
+        width: 3%;
+        height: 1000px;
+        background-color: rgb(226, 192, 217);
         float: left;
     }
-    .box_7{
-        width: 60%;
+    .add_1{
+        width: 200%;
+        height: 50px;
+        margin: 0px 50px auto 0px;
+        background-color: rgb(236, 191, 157);
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_2{
+        width: 300%;
         height: 20px;
-        margin: 50px auto auto 0px;
+        margin: -100px auto auto 50px;
+        background-color: rgb(190, 189, 221);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_3{
+        width: 250%;
+        height: 50px;
+        margin: 50px auto auto 70px;
+        background-color: rgb(255, 239, 188);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_4{
+        width: 200%;
+        height: 30px;
+        margin: -100px auto auto 120px;
         background-color: rgb(95, 176, 224);
         position: relative;
-        float: left;
-    }
-    .box_8{
-        width: 45%;
-        height: 50px;
-        margin: 0px auto auto 0px;
-        background-color: rgb(205, 148, 190);
-        position: relative;
-        float: left;
-    }
-    .box_9{
-        width: 60%;
-        height: 20px;
-        margin: 0px auto auto 80px;
-        background-color: rgb(236, 191, 157);
-        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
         float: left;
     }
     .stanza_2{
         font-family: ff-cocon-pro, sans-serif;
         font-weight: 300;
         font-style: normal;
-        text-align: left;
-        font-size: 2em;
+        text-align: right;
+        font-size: 4em;
         letter-spacing: 4px;
+        line-height: .6em;
         word-spacing: 5px;
-        margin: 100px auto auto 20px;
+        margin: 650px auto auto 0px;
         float: left;
     }
     .turn{
-        width: 100%;
-        height: 200px;
-        font-size: 13em;
-        margin: 0px auto 0px 30px;
+        width: 50%;
+        height: 400px;
+        font-size: 10em;
+        margin: -250px auto 0px 30px;
         text-align: left;
+        letter-spacing: 40px;
+        word-spacing: 10px;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
         float: left;
     }
     .turn_2{
-        width: 100%;
-        height: 600px;
+        width: 50%;
+        height: 700px;
         font-size: 10em;
-        margin: 0px 0px 0px auto;
-        text-align: right;
-        transform-origin: center;
+        margin: -820px 0px 0px 50px;
+        text-align: left;
+        letter-spacing: 30px;
+        word-spacing: 10px;
+        transform-origin: bottom left;
         transform: rotate(90deg);
         float: left;
     }
     .turn_3{
-        height: 200px;
-        width: 100%;
+        height: 700px;
+        width: 50%;
         font-size: 10em;
-        margin: 0px auto 0px 10px;
-        text-align: right;
-        transform-origin: center;
-        transform: rotate(-180deg);
+        margin: -820px 0px 0px 350px;
+        text-align: left;
+        letter-spacing: 30px;
+        word-spacing: 10px;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
         float: left;
     }
     .turn_4{
-        height: 200px;
-        width: 100%;
+        height: 700px;
+        width: 50%;
         font-size: 10em;
-        margin: 0px 0px 0px 0px;
+        margin: -820px 0px 0px 650px;
         text-align: left;
+        letter-spacing: 30px;
+        word-spacing: 10px;
         transform-origin: bottom left;
         transform: rotate(90deg);
         position: relative;
         float: left;
     }
     .stanza_3{
-        width: 100%;
-        height: 300px;
+        width: 8%;
+        height: 700px;
         position: relative;
         font-family: ff-cocon-pro, sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: left;
-        font-size: 2em;
+        font-size: 3em;
+        line-height: .6em;
         letter-spacing: 4px;
         word-spacing: 5px;
-        margin: 900px auto auto 40px;
+        margin: 550px auto auto 1300px;
         float: left;
     }
     .color_box_1_1{
-        width: 100%;
-        height: 90px;
-        background-color: rgb(188, 221, 239);
-        position: relative;
-        z-index: 100;
+        margin: -200px 0px 0px auto;
+        width: 3%;
+        height: 1000px;
+        background-color: rgb(226, 192, 217);
         float: left;
     }
-    .box_10{
-        width: 30%;
-        height: 20px;
-        margin: 0px 0px auto auto;
-        background-color: rgb(234, 143, 113);
-        position: relative;
-        float: left;
-    }
-    .box_10_1{
-        width: 70%;
+    .add_5{
+        width: 200%;
         height: 50px;
-        margin: 0px 0px auto auto;
+        margin: 0px 50px auto 0px;
+        background-color: rgb(236, 191, 157);
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_6{
+        width: 300%;
+        height: 20px;
+        margin: -100px auto auto 50px;
+        background-color: rgb(190, 189, 221);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_7{
+        width: 250%;
+        height: 50px;
+        margin: 50px auto auto 70px;
         background-color: rgb(255, 239, 188);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
+    }
+    .add_8{
+        width: 200%;
+        height: 30px;
+        margin: -100px auto auto 120px;
+        background-color: rgb(95, 176, 224);
+        position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
         float: left;
     }
     .stanza_4{

@@ -506,69 +506,86 @@ h1{
         color: white;
         padding: 0;
         margin: 0;
+        width: 1000vw;
     }
     .title{
-        font-size: 7em;
-        line-height: 2em;
-        margin: -400px auto 80px 0px;
+        font-size: 15em;
+        line-height: .2em;
+        margin: -700px auto 0px -100px;
         transform-origin: bottom left;
         transform: rotate(90deg);
         float: left;
     }
     h1{
         margin: 0;
+        float: left;
     }
     .color_box{
-        margin: 900px auto 0px auto;
-        width: 100%;
-        height: 245px;
+        margin: 0px auto 0px auto;
+        width: 10%;
+        height: 1000px;
         background-color: white;
-        position: relative;
-        z-index: 100;
-        transform-origin: bottom left;
-        transform: rotate(90deg);
+        float: left;
     }
     .box_1{
         width: 70%;
-        height: 40px;
-        margin: 0px 0px auto auto;
-        background-color: rgb(226, 192, 217);
+        height: 90px;
+        margin: 40px auto auto auto;
+        background-color: rgb(95, 176, 224);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .box_2{
-        width: 85%;
-        height: 20px;
-        margin: 0px 0px auto auto;
+        width: 60%;
+        height: 30px;
+        margin: 50px auto auto 90px;
         background-color: rgb(190, 189, 221);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .box_3{
-        width: 70%;
-        height: 90px;
-        margin: 0px 40px auto auto;
+        width: 90%;
+        height: 80px;
+        margin: 0px auto auto 120px;
         background-color: rgb(236, 191, 157);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .box_4{
-        width: 57%;
+        width: 90%;
         height: 30px;
-        margin: 0px 0px auto auto;
+        margin: -250px auto auto 200px;
         background-color: rgb(234, 143, 113);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .box_5{
-        width: 80%;
+        width: 50%;
         height: 45px;
-        margin: 0px 100px auto auto;
+        margin: 0px auto auto 230px;
         background-color: rgb(255, 239, 188);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .box_6{
-        width: 61%;
+        width: 60%;
         height: 20px;
-        margin: 0px 0px auto auto;
+        margin: -100px auto auto 275px;
         background-color: rgb(159, 190, 123);
         position: relative;
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+        float: left;
     }
     .stanza_1{
         font-family: ff-cocon-pro, sans-serif;
@@ -580,6 +597,7 @@ h1{
         word-spacing: 5px;
         margin: 150px 20px auto auto;
         line-height: .7em;
+        float: left;
     }
     .color_box_1{
         width: 100%;
@@ -587,6 +605,7 @@ h1{
         background-color: rgb(188, 221, 239);
         position: relative;
         z-index: 100;
+        float: left;
     }
     .box_7{
         width: 60%;
@@ -594,6 +613,7 @@ h1{
         margin: 50px auto auto 0px;
         background-color: rgb(95, 176, 224);
         position: relative;
+        float: left;
     }
     .box_8{
         width: 45%;
@@ -601,6 +621,7 @@ h1{
         margin: 0px auto auto 0px;
         background-color: rgb(205, 148, 190);
         position: relative;
+        float: left;
     }
     .box_9{
         width: 60%;
@@ -608,6 +629,7 @@ h1{
         margin: 0px auto auto 80px;
         background-color: rgb(236, 191, 157);
         position: relative;
+        float: left;
     }
     .stanza_2{
         font-family: ff-cocon-pro, sans-serif;
@@ -618,6 +640,7 @@ h1{
         letter-spacing: 4px;
         word-spacing: 5px;
         margin: 100px auto auto 20px;
+        float: left;
     }
     .turn{
         width: 100%;
@@ -625,6 +648,7 @@ h1{
         font-size: 13em;
         margin: 0px auto 0px 30px;
         text-align: left;
+        float: left;
     }
     .turn_2{
         width: 100%;
@@ -634,6 +658,7 @@ h1{
         text-align: right;
         transform-origin: center;
         transform: rotate(90deg);
+        float: left;
     }
     .turn_3{
         height: 200px;
@@ -643,6 +668,7 @@ h1{
         text-align: right;
         transform-origin: center;
         transform: rotate(-180deg);
+        float: left;
     }
     .turn_4{
         height: 200px;
@@ -653,6 +679,7 @@ h1{
         transform-origin: bottom left;
         transform: rotate(90deg);
         position: relative;
+        float: left;
     }
     .stanza_3{
         width: 100%;
@@ -666,6 +693,7 @@ h1{
         letter-spacing: 4px;
         word-spacing: 5px;
         margin: 900px auto auto 40px;
+        float: left;
     }
     .color_box_1_1{
         width: 100%;
@@ -673,6 +701,7 @@ h1{
         background-color: rgb(188, 221, 239);
         position: relative;
         z-index: 100;
+        float: left;
     }
     .box_10{
         width: 30%;
@@ -680,6 +709,7 @@ h1{
         margin: 0px 0px auto auto;
         background-color: rgb(234, 143, 113);
         position: relative;
+        float: left;
     }
     .box_10_1{
         width: 70%;
@@ -687,6 +717,7 @@ h1{
         margin: 0px 0px auto auto;
         background-color: rgb(255, 239, 188);
         position: relative;
+        float: left;
     }
     .stanza_4{
         height: 150px;
@@ -700,6 +731,7 @@ h1{
         letter-spacing: 4px;
         word-spacing: 5px;
         margin: 100px 0px auto 0px;
+        float: left;
     }
     .fall{
         width: 783px;
@@ -715,6 +747,7 @@ h1{
         line-height: .001em;
         font-size: 6em;
         color: white;
+        float: left;
     }
     .stanza_5{
         font-family: ff-cocon-pro, sans-serif;
@@ -725,6 +758,7 @@ h1{
         letter-spacing: 4px;
         word-spacing: 20px;
         margin: 0px 40px auto auto;
+        float: left;
     }
     .color_box_2{
         width: 100%;
@@ -732,6 +766,7 @@ h1{
         background-color: rgb(188, 221, 239);
         position: relative;
         z-index: 100;
+        float: left;
     }
     .box_11{
         width: 60%;
@@ -746,6 +781,7 @@ h1{
         line-height: 1em;
         font-size: 4em;
         letter-spacing: 4px;
+        float: left;
     }
     .box_12{
         width: 40%;
@@ -753,6 +789,7 @@ h1{
         margin: 0px auto auto 40px;
         background-color: rgb(205, 148, 190);
         position: relative;
+        float: left;
     }
     .box_13{
         width: 70%;
@@ -768,5 +805,6 @@ h1{
         font-size: 4em;
         letter-spacing: 4px;
         word-spacing: 2.4em;
+        float: left;
     }
 }

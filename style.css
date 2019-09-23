@@ -506,7 +506,7 @@ h1{
         color: white;
         padding: 0;
         margin: 0;
-        width: 1200vw;
+        width: 1300vw;
     }
     .title{
         font-size: 15em;
@@ -808,91 +808,56 @@ h1{
         float: left;
     }
     .stanza_4{
-        height: 150px;
-        width: 95%;
+        height: 700px;
+        width: 50%;
         position: relative;
         font-family: ff-cocon-pro, sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: center right;
-        font-size: 3em;
+        font-size: 5em;
         letter-spacing: 4px;
         word-spacing: 5px;
-        margin: 100px 0px auto 0px;
+        margin: -1400px 0px auto 1500px;
         float: left;
     }
     .fall{
-        width: 783px;
-        font-size: 5em;
-        text-align: top right;
-        transform-origin: bottom right;
+        height: 50%;
+        width: 700px;
+        font-size: 9em;
+        transform-origin: bottom left;
         transform: rotate(90deg);
-        margin: 350px 100px auto auto;
-        letter-spacing: 40px;
-        font-family: ff-cocon-pro, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        line-height: .001em;
-        font-size: 6em;
+        margin: -1800px 0px auto 7300px;
+        letter-spacing: 50px;
         color: white;
         float: left;
     }
     .stanza_5{
+        height: 700px;
+        width: 65%;
+        font-family: ff-cocon-pro, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: right;
+        font-size: 6em;
+        letter-spacing: 4px;
+        word-spacing: 20px;
+        margin: -700px 0px auto 670px;
+        float: left;
+    }
+    .name{
+        height: 700px;
+        width: 50%;
+        position: relative;
         font-family: ff-cocon-pro, sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: right;
         font-size: 3em;
         letter-spacing: 4px;
-        word-spacing: 20px;
-        margin: 0px 40px auto auto;
+        word-spacing: 5px;
+        line-height: .3em;
+        margin: -1400px 0px auto 3000px;
         float: left;
-    }
-    .color_box_2{
-        width: 100%;
-        height: 200px;
-        background-color: rgb(188, 221, 239);
-        position: relative;
-        z-index: 100;
-        float: left;
-    }
-    .box_11{
-        width: 60%;
-        height: 80px;
-        margin: 0px auto auto 0px;
-        background-color: rgb(95, 176, 224);
-        position: relative;
-        font-family: ff-cocon-pro, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: left;
-        line-height: 1em;
-        font-size: 4em;
-        letter-spacing: 4px;
-        float: left;
-    }
-    .box_12{
-        width: 40%;
-        height: 20px;
-        margin: 0px auto auto 40px;
-        background-color: rgb(205, 148, 190);
-        position: relative;
-        float: left;
-    }
-    .box_13{
-        width: 70%;
-        height: 90px;
-        margin: -65px auto auto 0px;
-        background-color: rgb(236, 191, 157);
-        position: relative;
-        font-family: ff-cocon-pro, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: left;
-        line-height: 1em;
-        font-size: 4em;
-        letter-spacing: 4px;
-        word-spacing: 2.4em;
-        float: left;
-    }
+  }
 }
